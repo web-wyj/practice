@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>user-media</title>
+    <style>
+        #video{
+            width: 480px;
+            height: 320px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <video id="video" autoplay></video>
+        <div>
+            <input type="radio" name="canvas-size-set" id="size1" value="1">原始宽高
+            <input type="radio" name="canvas-size-set" id="size2" value="2">等宽
+            <input type="radio" name="canvas-size-set" id="size3" value="3" checked>等高
+            <button id="photo-btn" disabled>拍照</button>
+        </div>
+        <canvas id="canvas" width="480" height="320"></canvas>
+    </main>
+    <script src="./user-media.js"></script>
+</body>
+</html>

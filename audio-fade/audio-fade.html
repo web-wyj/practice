@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>audio-fade</title>
+</head>
+<body>
+    <main>
+        <div>
+            <!-- controls, loop, autoplay, preload="none/metadata/auto" -->
+            <!-- 标签volum属性无效，只能通过js控制volume -->
+            <audio id="audio" controls preload="auto">
+                <source src="http://oxcvdikr9.bkt.clouddn.com/audio-fade-music.mp3"/>
+                你的浏览器不支持audio
+            </audio>
+            <button id="audio-btn">播放</button>
+        </div>
+    </main>
+    <script src="./audio-fade.js"></script>
+</body>
+</html>
