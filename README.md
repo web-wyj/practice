@@ -10,3 +10,6 @@
 2.[摄像头图像自适应宽高](https://web-wyj.github.io/practice/user-media/user-media.html)
 
 3.[indexedDB便签](https://web-wyj.github.io/practice/note/note.html)
+```
+支持离线记录
+```
